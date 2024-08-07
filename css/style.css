@@ -1,0 +1,41 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ui,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common Css End */
+#lightbox{
+    padding: 100px 0;
+    background: teal;
+}
+#venobox{
+    padding: 100px 0;
+    background: rgb(28, 143, 104);
+}
+.veno_video {
+	background-image: url(../images/n3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 50px;
+	padding: 100px;
+	text-align: center;
+}
+#mixitup{
+    padding: 100px 0;
+    background: blueviolet;
+}
